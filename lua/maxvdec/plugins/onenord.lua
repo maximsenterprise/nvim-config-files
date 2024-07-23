@@ -1,0 +1,20 @@
+return {}
+-- return {
+-- 	"rmehri01/onenord.nvim",
+-- 	config = function()
+-- 		require("onenord").setup({
+-- 			styles = {
+-- 				comments = "italic",
+-- 				keywords = "bold",
+-- 				functions = "italic",
+-- 				variables = "italic",
+-- 			},
+-- 			disable = {
+-- 				background = true,
+-- 				float_background = true,
+-- 			},
+-- 		})
+--
+-- 		--[[ vim.cmd("colorscheme onenord") ]]
+-- 	end,
+-- }

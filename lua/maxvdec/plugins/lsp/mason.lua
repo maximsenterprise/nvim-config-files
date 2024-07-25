@@ -51,6 +51,7 @@ return {
 				"nim_langserver",
 				"ocamllsp",
 				"fsautocomplete",
+				"gopls",
 			},
 		})
 
@@ -69,6 +70,7 @@ return {
 				"hlint",
 				"rstcheck",
 				"swiftlint",
+				"golangci-lint",
 			},
 		})
 	end,

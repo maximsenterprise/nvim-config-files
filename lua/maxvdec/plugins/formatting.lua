@@ -27,6 +27,7 @@ return {
 				rust = { "rustfmt" },
 				zig = { "zigfmt" },
 				haskell = { "fourmolu" },
+				go = { "gofmt" },
 			},
 			format_on_save = {
 				lsp_fallback = true,

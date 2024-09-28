@@ -52,6 +52,7 @@ return {
 				"ocamllsp",
 				"fsautocomplete",
 				"gopls",
+				"erlangls",
 			},
 		})
 
@@ -71,6 +72,7 @@ return {
 				"rstcheck",
 				"swiftlint",
 				"golangci-lint",
+				"ocamlformat",
 			},
 		})
 	end,

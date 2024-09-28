@@ -1,3 +1,12 @@
+--[[
+ init.lua
+ As part of the maxvdec project
+ Created by Maxims Enterprise in 2024
+ --------------------------------------------------
+ Description: asdf
+ Copyright (c) 2024 Maxims Enterprise
+]]
+
 require("maxvdec.core.init")
 require("maxvdec.lazy")
 -- Agrega esto al principio de tu init.lua
@@ -42,6 +51,7 @@ local function insert_sign()
 		"asm",
 		"make",
 		"ld",
+		"erlang",
 	}
 	if vim.tbl_contains(not_block_langauges, vim.bo.filetype) then
 		vim.api.nvim_cmd({ cmd = "normal", args = { "gc" } }, {})

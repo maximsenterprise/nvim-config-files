@@ -60,6 +60,7 @@ return {
 				"nim",
 				"ocaml",
 				"python",
+				"fortran",
 			},
 			incremental_selection = {
 				enable = true,

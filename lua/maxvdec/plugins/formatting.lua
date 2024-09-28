@@ -28,6 +28,8 @@ return {
 				zig = { "zigfmt" },
 				haskell = { "fourmolu" },
 				go = { "gofmt" },
+				ocaml = { "ocamlformat" },
+				ruby = { "rubyfmt" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
